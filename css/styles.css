@@ -16,6 +16,10 @@ header {
   height: 500px;
 }
 
+.header-img {
+  width: 100%;
+}
+
 .title-text {
   color: white;
   font-family:
@@ -39,8 +43,4 @@ header {
   top: 3rem;
   left: 0;
   right: 0;
-}
-
-.header-img {
-  width: 100%;
 }
