@@ -1,3 +1,7 @@
+header {
+  text-align: center;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -11,21 +15,40 @@
   width: calc(100% / 3);
 }
 
-header {
+.center {
   text-align: center;
-  height: 500px;
 }
 
-.header-img {
-  width: 100%;
+.tada {
+  animation: tada;
+  animation-duration: 1s;
 }
 
-.title-text {
-  color: white;
+.bounce {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.pacifico {
   font-family:
     Pacifico,
     sans-serif,
     cursive;
+}
+
+.sans-serif {
+  font-family:
+    sans-serif,
+    cursive;
+}
+
+.header-img {
+  width: 100%;
+  height: 35rem;
+}
+
+.title-text {
+  color: white;
   text-align: center;
   position: absolute;
   top: 0;
@@ -35,12 +58,15 @@ header {
 
 .greeting-text {
   color: white;
-  font-family:
-    sans-serif,
-    cursive;
   text-align: center;
   position: absolute;
   top: 3rem;
   left: 0;
   right: 0;
+}
+
+.product-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
